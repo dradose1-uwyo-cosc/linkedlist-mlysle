@@ -42,10 +42,10 @@ func main() {
 	data, _ := stack.Pop()
 	println("Popped from stack:", data)
 
-	//queue := &ds.Queue{}
-	//queue.Push("first")
-	//queue.Push("second")
-	//queue.Push("third")
-	//data, _ = queue.Pop()
-	//println("Popped from queue:", data)
+	queue := &ds.Queue{}
+	queue.Push("first")
+	queue.Push("second")
+	queue.Push("third")
+	data, _ = queue.Pop()
+	println("Popped from queue:", data)
 }
