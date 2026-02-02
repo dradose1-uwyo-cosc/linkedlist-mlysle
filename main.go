@@ -35,12 +35,12 @@ func main() {
 	linkedlist.InsertAt(3, "fifth")
 	linkedlist.PrintList()
 
-	//stack := &ds.Stack{}
-	//stack.Push("first")
-	//stack.Push("second")
-	//stack.Push("third")
-	//data, _ := stack.Pop()
-	//println("Popped from stack:", data)
+	stack := &ds.Stack{}
+	stack.Push("first")
+	stack.Push("second")
+	stack.Push("third")
+	data, _ := stack.Pop()
+	println("Popped from stack:", data)
 
 	//queue := &ds.Queue{}
 	//queue.Push("first")
